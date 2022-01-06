@@ -21,23 +21,5 @@ text = "MIT YSAU OL OYGFSBDGRTKFEKBHMGCALSOQTMIOL. UTFTKAMTR ZB DAKQGX EIAOF GY 
        " AFR GZMAOF GF LAFMALB, IOL WLT, CAMMTKL ROASGUWT OL AF AKMOLML LMAMWL AL A ROD XOTC OF MIT TLLTFMOASSB MG DAQT IOD LTTD MG OFESWRTR MIAM " \
        "EASXOF OL AF GRR ROASGUWT DGLM GY MIT ESWZ IAL TVHKTLLOGF GWMLORT AXAOSAZST MG"
 
-# RTETDZTK
-# DECEMBER
-
-# FADT
-# ??ME
-
-#
-#
-
-alphabeth = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-cypher = ['a', 'b', 't', 'm', 'c', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'd', 's', 'e', 'u', 'v', 'w', 'x', 'y', 'z']
-cypger_key = "RTETDZTK"
-#
 print(text.replace("R", "d").replace("T", "e").replace("E", "c").replace("Z", "b").replace("K", "r").replace("D", "m").replace("M", "t").replace("C", "w").replace("G", "o").replace("L", "s").replace("O", "i").replace("I", "h")
       .replace("Y", "f").replace("W", "u").replace("F", "n").replace("H", "p").replace("V", "x").replace("S", "l").replace("A", "a").replace("U", "g").replace("Q", "k").replace("B", "y"))
-
-# print(cypher[1])
-#
-# for i in text:
-#        print(i)
