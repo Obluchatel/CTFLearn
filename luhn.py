@@ -20,11 +20,13 @@ def verify(string):
     return (checksum(string) == 0)
 
 
-card_number = "543210******1234"
+card_number = "543210{}1234"
+
 
 for number in range(111111, 999999):
-    if verify((card_number.replace("******", str(number)))) == True and int(
-            card_number.replace("******", str(number))) % 123457 == 0:
-        print(card_number.replace("******", str(number)))
+    if verify((card_number.format(str(number)))) == True and int(
+            card_number.format(str(number))) % 123457 == 0:
+        print(card_number.format(str(number)))
+        break
     else:
         pass
